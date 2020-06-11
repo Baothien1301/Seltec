@@ -116,4 +116,49 @@
 	    "type": "InboxUpdatedEvent"
     }
     ```
+#### d. GET: Inbox
+* **Response Class:** (Status 200)
+
+* **Response Content Type:** application/json
+
+* **Curl:** 
+
+    ```curl -X GET --header "Accept: application/json" "http://<ip>:8080/rest/inbox"```
+
+* **Request URL:**
+
+    ```http://<ip>:8080/rest/inbox```
+
+* **Response Body:**
+
+    ```
+    [{
+    "bridgeUID": "lifesmart:smartstation:smartstation",
+    "flag": "NEW",
+    "label": "Dimming Controller",
+    "properties": {
+      "me": "7d3b",
+      "name": "Dimming Controller",
+      "devtype": "SL_SPWM",
+      "agt": "A3YAAAAyADoDRzgxMDMyMA"
+    },
+    "representationProperty": "me",
+    "thingUID": "lifesmart:dimmingcontroller:smartstation:7d3b",
+    "thingTypeUID": "lifesmart:dimmingcontroller"
+    }]
+    ```
+
+* **Response Code:** 
+
+    ```200```
+
+* **Response Headers:**
+
+    ```
+    {
+        "content-length": "335",
+  	"content-type": "application/json",
+  	"server": "Jetty(9.4.20.v20190813)"
+    }
+    ```
 
