@@ -156,9 +156,9 @@
 
     ```
     {
-        "content-length": "335",
-  	"content-type": "application/json",
-  	"server": "Jetty(9.4.20.v20190813)"
+    	"content-length": "335",
+	"content-type": "application/json",
+	"server": "Jetty(9.4.20.v20190813)"
     }
     ```
 
