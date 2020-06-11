@@ -16,3 +16,21 @@
 
 ```http://<ip>:8080/rest/bindings```
 
+**Response Body:**
+
+```[
+  {
+    "author": "Zachariah",
+    "description": "This is the binding for HIKVISION.",
+    "id": "hikvision",
+    "name": "HIKVISION Binding"
+  },
+  {
+    "author": "Select Technology Company",
+    "description": "This is the binding for LifeSmart.",
+    "id": "lifesmart",
+    "name": "LifeSmart Binding"
+  }
+]```
+
+**Response Body:**
