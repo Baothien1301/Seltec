@@ -4,19 +4,19 @@
 ![Diagram](/addnewdevicediagram.png)
 ### 2. Detail
 #### a. Get: supported binding
-**Response Class:** (Status 200)
+* **Response Class:** (Status 200)
 
-**Response Content Type:** application/json
+* **Response Content Type:** application/json
 
-**Curl:** 
+* **Curl:** 
 
-```curl -X GET --header "Accept: application/json" "http://192.168.100.47:8080/rest/bindings"```
+* ```curl -X GET --header "Accept: application/json" "http://192.168.100.47:8080/rest/bindings"```
 
-**Request URL:**
+* **Request URL:**
 
-```http://<ip>:8080/rest/bindings```
+* ```http://<ip>:8080/rest/bindings```
 
-**Response Body:**
+* **Response Body:**
 ```
 [{
     "author": "Zachariah",
