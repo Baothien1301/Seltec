@@ -24,7 +24,8 @@
 
 * **Response Body:**
 
-    ```[{
+    ```
+        [{
         "author": "Zachariah",
         "description": "This is the binding for HIKVISION.",
         "id": "hikvision",
@@ -35,7 +36,8 @@
         "description": "This is the binding for LifeSmart.",
         "id": "lifesmart",
         "name": "LifeSmart Binding"
-        }]```
+        }]
+    ```
 
 * **Response Code:** 
 
@@ -71,6 +73,7 @@
     ```http://<ip>:8080/rest/discovery/bindings/{bindingId}/scan```
 
 * **Response Body:**
+
     ```120```
 
 * **Response Code:** 
