@@ -17,9 +17,8 @@
 ```http://<ip>:8080/rest/bindings```
 
 **Response Body:**
-
-```[
-  {
+```
+[{
     "author": "Zachariah",
     "description": "This is the binding for HIKVISION.",
     "id": "hikvision",
@@ -31,6 +30,7 @@
     "id": "lifesmart",
     "name": "LifeSmart Binding"
   }
-]```
+]
+```
 
 **Response Body:**
