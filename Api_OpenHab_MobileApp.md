@@ -90,5 +90,30 @@
         "server": "Jetty(9.4.20.v20190813)"
     }
     ```
+    
+#### c. SSE: type {InboxUpdateEvent}
 
+* **Event:** Message
+
+* **Data:**
+    ```
+    {
+	    "topic": "smarthome/inbox/lifesmart:dimmingcontroller:smartstation:7d3b/updated",
+	    "payload": {
+		    "bridgeUID": "lifesmart:smartstation:smartstation",
+		    "flag": "NEW",
+		    "label": "Dimming Controller",
+		    "properties": {
+			    "me": "7d3b",
+			    "name": "Dimming Controller",
+			    "devtype": "SL_SPWM",
+			    "agt": "A3YAAAAyADoDRzgxMDMyMA"
+		     },
+		    "representationProperty": "me",
+		    "thingUID": "lifesmart:dimmingcontroller:smartstation:7d3b",
+		    "thingTypeUID": "lifesmart:dimmingcontroller"
+	    },
+	    "type": "InboxUpdatedEvent"
+    }
+    ```
 
