@@ -33,4 +33,17 @@
 ]
 ```
 
-**Response Body:**
+**Response Code:** 
+
+```200```
+
+**Response Headers:**
+
+```
+{
+  "content-length": "380",
+  "content-type": "application/json",
+  "server": "Jetty(9.4.20.v20190813)"
+}
+```
+
