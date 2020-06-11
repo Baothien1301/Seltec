@@ -25,7 +25,7 @@
 * **Response Body:**
 
     ```
-        [{
+    [{
         "author": "Zachariah",
         "description": "This is the binding for HIKVISION.",
         "id": "hikvision",
@@ -36,7 +36,7 @@
         "description": "This is the binding for LifeSmart.",
         "id": "lifesmart",
         "name": "LifeSmart Binding"
-        }]
+    }]
     ```
 
 * **Response Code:** 
@@ -47,9 +47,9 @@
 
     ```
     {
-    "content-length": "380",
-    "content-type": "application/json",
-    "server": "Jetty(9.4.20.v20190813)"
+        "content-length": "380",
+        "content-type": "application/json",
+        "server": "Jetty(9.4.20.v20190813)"
     }
     ```
     
@@ -84,10 +84,10 @@
 
     ```
     {
-    "access-control-allow-origin": "http://192.168.100.47:8080",
-    "content-length": "3",
-    "content-type": "text/plain",
-    "server": "Jetty(9.4.20.v20190813)"
+        "access-control-allow-origin": "http://192.168.100.47:8080",
+        "content-length": "3",
+        "content-type": "text/plain",
+        "server": "Jetty(9.4.20.v20190813)"
     }
     ```
 
