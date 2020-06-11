@@ -35,7 +35,7 @@
         "description": "This is the binding for LifeSmart.",
         "id": "lifesmart",
         "name": "LifeSmart Binding"
-    }]```
+        }]```
 
 * **Response Code:** 
 
@@ -50,6 +50,7 @@
     "server": "Jetty(9.4.20.v20190813)"
     }
     ```
+    
 #### b. POST: Scan with {bindingID}
 * **Response Class:** (Status 200)
 
