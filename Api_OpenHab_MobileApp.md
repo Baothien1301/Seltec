@@ -161,4 +161,39 @@
 	"server": "Jetty(9.4.20.v20190813)"
     }
     ```
+#### e. POST: thingUID approve
+* **Parameters:** 
 
+    |Parameter|Value|Decription|Parameter Type|Data Type|
+    |---------|-----|----------|--------------|---------|
+    |Accept-Language||language |    header    |  string |
+    |thingUID||thingUID |    path    |  string |
+    |body||thing label |    body    |  string |
+
+* **Curl:** 
+
+    ```curl -X POST --header "Content-Type: text/plain" --header "Accept: application/json" "http://<ip>:8080/rest/inbox/{thingUID}/approve"```
+
+* **Request URL:**
+
+    ```http://<ip>:8080/rest/inbox/{thingUID}/approve```
+
+* **Response Body:**
+
+    ```no content```
+
+* **Response Code:** 
+
+    ```200```
+
+* **Response Headers:**
+
+    ```
+    {
+        "access-control-allow-origin": "http://192.168.100.47:8080",
+  	"content-length": "0",
+  	"content-type": "text/plain",
+  	"server": "Jetty(9.4.20.v20190813)"
+    }
+    ```
+    
