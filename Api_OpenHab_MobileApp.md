@@ -1,12 +1,12 @@
 # API OPENHAB MOBILE APP
 ## I. ADD NEW DEVICE
-1. Diagram
+### 1. Diagram
 ![Diagram](/addnewdevicediagram.png)
-2. Detail
-    a. Get: supported binding
-**Response Class:** (Status 200)
+### 2. Detail
+#### a. Get: supported binding
+        **Response Class:** (Status 200)
 
-**Response Content Type:** application/json
+        **Response Content Type:** application/json
 
 **Curl:** 
 
